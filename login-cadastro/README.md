@@ -7,3 +7,4 @@ Treinando inputs, formularios e estilos de botoes e backgrounds.
 
 <p align="center">
    <img src="src/assets/Login-cadastro.gif">
+   </p>
