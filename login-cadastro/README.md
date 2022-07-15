@@ -5,6 +5,5 @@ projetos para praticar em HTML e CSS
 Tela de Login e cadastro basica. 
 Treinando inputs, formularios e estilos de botoes e backgrounds.
 
-<p align="center">
-   <img width="460" heigth=""300" src="src/assest/Login-cadastro.gif">
-   </p>
+![Login-cadastro (1)](https://user-images.githubusercontent.com/80357746/179130462-8bceed26-6e36-4224-b9ff-2d5911c522b1.gif)
+
