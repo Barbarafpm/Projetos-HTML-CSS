@@ -6,5 +6,5 @@ Tela de Login e cadastro basica.
 Treinando inputs, formularios e estilos de botoes e backgrounds.
 
 <p align="center">
-   <img src="src/assets/Login-cadastro.gif">
+   <img src="../assets/Login-cadastro.gif">
    </p>
