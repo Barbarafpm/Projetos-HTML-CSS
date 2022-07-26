@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@200&display=swap');
+
+/*config para a pagina */
+* {
+    margin: 0;
+    padding: 0;
+
+
+}
+
+body {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    color:  #388f3d;
+    font-size: 2.5rem;
+
+}
+/* imagem de fundo*/
+
+#background {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    filter: grayscale(60%);
+}
+
+/*Titulo e sub-titulo*/
+.container {
+    position:relative;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+ }
+
+
+ /*Botoes para navegação*/
+
+ul {
+    text-decoration: none;
+    cursor: pointer;
+}
+li {
+    background-color:  #388f3d;
+    margin: 20px;
+    display: inline;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 20px;
+    
+}
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+/*redes sociais */
+
+#social {
+    position: relative;
+    display: flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+
+
+ }
+ .social-media {
+    width: 50px;
+    margin-top: 10px;
+    padding: 20px;
+ }
+
+
+ /* RESPONSIVO */
+
+@media screen and (min-width:320px) and (max-width: 599px) {
+    body {
+        font-family: 'Yanone Kaffeesatz', sans-serif;
+        color:  #388f3d;
+        font-size: 1.5rem;
+        overflow-y: hidden;
+        overflow-x: hidden;
+    }
+    .container {
+        position:relative;
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-size: 2rem;
+        
+        
+     }
+    
+    #background {
+        position: absolute;
+        width: 100%;
+        height:100vh;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+     }
+    
+    li {
+        background-color:  #388f3d;
+        padding: 0.6rem;
+        margin: 20px;
+        display: block;
+        text-decoration: none;
+        padding: 15px;
+        border-radius: 20px;
+    
+    }
+    .social-media {
+        width: 30px;
+        margin-top: 10px;
+        padding: 20px;
+     }
+    
+
+}
+@media screen and (min-width: 600px) and ( max-width: 900px) {
+    body {
+        font-family: 'Yanone Kaffeesatz', sans-serif;
+        color:  #388f3d;
+        font-size: 3rem;
+        overflow-y: hidden;
+        overflow-x: hidden;
+    }
+    .container {
+        position:relative;
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-size: 3rem;
+        
+        
+     }
+    
+    #background {
+        position: absolute;
+        width: 100%;
+        height:100vh;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+     }
+    
+    li {
+        background-color:  #388f3d;
+        padding: 0.6rem;
+        margin: 20px;
+        display: block;
+        text-decoration: none;
+        padding: 15px;
+        border-radius: 20px;
+    
+    }
+    .social-media {
+        width: 50px;
+        margin-top: 10px;
+        padding: 20px;
+     }
+}
+
+@media screen and (min-width: 901px) and ( max-width:1300px) {
+    body {
+        font-family: 'Yanone Kaffeesatz', sans-serif;
+        color:  #388f3d;
+
+    }
+    .container {
+        position:relative;
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-size: 2rem;
+        
+        
+     }
+    
+    #background {
+        position: absolute;
+        width: 100%;
+        height: 100vh;
+        background-size: cover;
+     }
+    
+    li {
+        background-color:  #388f3d;
+        padding: 0.6rem;
+        margin: 10px;
+        display: block;
+        text-decoration: none;
+        padding: 15px;
+        border-radius: 20px;
+    
+    }
+    .social-media {
+        width: 40px;
+        margin-top: 5px;
+        padding: 20px;
+     }
+}

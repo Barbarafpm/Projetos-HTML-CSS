@@ -1,0 +1,600 @@
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@200&display=swap');
+
+/*config para a pagina */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    color: #ffffff;
+    font-size: 2rem;
+    background-color: #000000;
+}
+
+#seta1 {
+    position: absolute;
+    padding: 10px;
+    margin-left: 20px;
+    box-shadow: 2px -2px 0 1px #388f3d inset;
+    border: solid transparent;
+    border-width: 0 0 2px 2px;
+    transform: rotate(45deg);
+  }
+#menu {
+    position: relative;
+    width: 100%;
+    height: 600px;
+    
+}
+#center1 {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+}
+#center2 {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+}
+#center3 {
+    position: absolute;
+    top: 70%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+}
+nav {
+    position: relative;
+    text-decoration: none;
+    cursor: pointer; 
+  }
+
+li {
+    display: inline-block;
+    text-decoration: none;
+    background: #388f3d;
+    display: inline;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 20px;
+}
+a {
+    text-decoration: none;
+    color: #ffffff;
+
+}
+.nav {
+    padding: 10px;
+}
+
+/*conteudos*/
+
+/* Entradas */
+
+.container {
+    width: 800px;
+    height: 500px;
+    display: inline-block;
+    margin-left: 90px;
+}
+
+.fotos {
+    width: 300px;
+    height: 500px;
+    display: inline-block;
+
+}
+
+.nome {
+    float: left;
+    margin-bottom: 100px;
+}
+.preço {
+    float: right;
+    margin-right: 10px;
+}
+.fotinhas {
+    display: block;
+    margin-left: 70px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    width: 150px;
+    
+}
+.logo {
+    width: 28px;
+}
+
+/* Pratos principais */
+
+.titulo { 
+    padding-top: 20px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+#container2 {
+    width: 800px;
+    height: 700px;
+    display: inline-block;
+    margin-left: 90px;
+}
+
+#fotos2 {
+    width: 300px;
+    height: 700px;
+    display: inline-block;
+
+}
+.pratos {
+    float: left;
+    margin-bottom: 85px;
+}
+
+.principais {
+    display: block;
+    margin-left: 70px;
+    margin-bottom: 15px;
+    border-radius: 20px;
+    width: 150px;
+}
+
+/* Bebidas */
+
+#container3 {
+    width: 1000px;
+    height: 700px;
+    margin-left: 150px;
+}
+.nome2 {
+    float: left;
+    margin-bottom: 100px;
+}
+.preço2 {
+    float: right;
+}
+
+/* RESPONSIVO */
+@media screen and (min-width:320px) and (max-width: 599px){
+
+    h1 {
+        font-size: 1.9rem;
+
+    }
+    h2 {
+        font-size: 1.7rem;
+
+    }
+    #seta1 {
+        position: absolute;
+        padding: 5px;
+        margin-left: 20px;
+        box-shadow: 2px -2px 0 1px #388f3d inset;
+        border: solid transparent;
+        border-width: 0 0 2px 2px;
+        transform: rotate(45deg);
+      }
+    #menu {
+        position: relative;
+        width: 110%;
+        height: 300px;
+        
+    }
+    #center1 {
+        position: absolute;
+        top: 100px;
+        left: 30%;
+        transform: translate(-50%, -50%);
+    }
+    #center2 {
+        position: absolute;
+        top: 150px;
+        left: 40%;
+        transform: translate(-50%, -50%);
+    }
+    #center3 {
+        position: absolute;
+        top: 250px;
+        left: 54%;
+        width: 100%;
+    }
+
+    a { 
+        font-size: 0.7rem;
+        text-decoration: none;
+        color: #ffffff;
+    
+    }
+    .nav {
+        padding: 2px;
+    }
+
+    /* ENTRADAS */
+
+    .container {
+        font-size: 0.8rem;
+        width: 190px;
+        height: 300px;
+        margin-left: 10px;
+    }
+    
+    .fotos {
+        width: 100px;
+        height: 300px;
+        display: inline-block;
+    
+    }
+    .logo {
+        width: 10px;
+    }
+    .nome {
+        float: left;
+        margin-left: 10px;
+        margin-bottom: 20px;
+        margin-right: 100px;
+    }
+    .preço {
+        float: right;
+    }
+    .fotinhas {
+        display: block;
+        border-radius: 20px;
+        margin-left: 50px;
+        width: 70px;
+    }
+
+    /* Pratos principais */
+
+.titulo { 
+    font-size: 1.5rem;
+    padding-top:0px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+#container2 {
+    font-size: 0.8rem;
+    width: 190px;
+    height: 400px;
+    margin-left: 10px;
+    
+}
+
+#fotos2 {
+    width: 100px;
+    height: 400px;
+    display: inline-block;
+
+}
+.pratos {
+    float: left;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    margin-right: 100px;
+}
+
+.principais {
+    display: block;
+    border-radius: 20px;
+    margin-left: 50px;
+    width: 70px;
+}
+
+/* Bebidas */
+
+#container3 {
+    font-size: 0.8rem;
+    width: 200px;
+    height: 200px;
+    margin-left: 10px;
+}
+.nome2 {
+    margin-bottom: 20px;
+    margin-right: 50px;
+}
+.preço2 {
+    display: block;
+    border-radius: 20px;
+    width:0px;
+}
+
+
+}
+
+
+@media screen and (min-width: 600px) and ( max-width: 900px) {
+
+    h1 {
+        font-size: 1.9rem;
+
+    }
+    h2 {
+        font-size: 1.7rem;
+
+    }
+    #seta1 {
+        position: absolute;
+        padding: 5px;
+        margin-left: 20px;
+        box-shadow: 2px -2px 0 1px #388f3d inset;
+        border: solid transparent;
+        border-width: 0 0 2px 2px;
+        transform: rotate(45deg);
+      }
+    #menu {
+        position: relative;
+        width: 100%;
+        height: 400px;
+        
+    }
+    #center1 {
+        position: absolute;
+        top: 100px;
+        left: 40%;
+        transform: translate(-50%, -50%);
+    }
+    #center2 {
+        position: absolute;
+        top: 150px;
+        left: 40%;
+        transform: translate(-50%, -50%);
+    }
+    #center3 {
+        position: absolute;
+        top: 300px;
+        left: 65%;
+        width: 100%;
+    }
+
+    a { 
+        font-size: 1rem;
+        text-decoration: none;
+        color: #ffffff;
+    
+    }
+    .nav {
+        padding: 7px;
+    }
+        /* ENTRADAS */
+
+        .container {
+            font-size: 0.8rem;
+            width:470px;
+            height: 300px;
+            margin-left: 0px;
+        }
+        
+        .fotos {
+            width: 90px;
+            height: 300px;
+            display: inline-block;
+        
+        }
+        .logo {
+            width: 15px;
+        }
+        .nome {
+            float: left;
+            margin-left: 15px;
+            margin-bottom: 50px;
+            margin-right: 100px;
+        }
+        .preço {
+            float: right;
+        }
+        .fotinhas {
+            display: block;
+            border-radius: 20px;
+            margin-left: 35px;
+            width: 80px;
+            
+        }
+            /* Pratos principais */
+
+.titulo { 
+    font-size: 1.5rem;
+    padding-top:0px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+#container2 {
+    font-size: 0.8rem;
+    width:400px;
+    height: 400px;
+    margin-left: 0px;
+    
+}
+
+#fotos2 {
+    width: 100px;
+    height: 400px;
+    display: inline-block;
+
+}
+.pratos {
+    float: left;
+    margin-left: 10px;
+    margin-bottom: 50px;
+    margin-right: 100px;
+}
+
+.principais {
+    display: block;
+    border-radius: 20px;
+    margin-left: 100px;
+    width: 80px;
+}
+
+/* Bebidas */
+
+#container3 {
+    font-size: 0.8rem;
+    width: 600px;
+    height: 200px;
+    margin-left: 5px;
+}
+.nome2 {
+    margin-left: 10px;
+    margin-bottom: 20px;
+    margin-right: 100px;
+}
+.preço2 {
+    display: block;
+    border-radius: 20px;
+    margin-left: 15px;
+    width: 70px;
+}
+}
+@media screen and (min-width: 900px) and ( max-width:1300px) { 
+    h1 {
+        font-size: 2.5rem;
+
+    }
+    h2 {
+        font-size: 2rem;
+
+    }
+    #seta1 {
+        position: absolute;
+        padding: 5px;
+        margin-left: 20px;
+        box-shadow: 2px -2px 0 1px #388f3d inset;
+        border: solid transparent;
+        border-width: 0 0 2px 2px;
+        transform: rotate(45deg);
+      }
+    #menu {
+        position: relative;
+        width: 100%;
+        height: 400px;
+        
+    }
+    #center1 {
+        position: absolute;
+        top: 100px;
+        left: 40%;
+        transform: translate(-50%, -50%);
+    }
+    #center2 {
+        position: absolute;
+        top: 150px;
+        left: 40%;
+        transform: translate(-50%, -50%);
+    }
+    #center3 {
+        position: absolute;
+        top: 300px;
+        left: 65%;
+        width: 100%;
+    }
+
+    a { 
+        font-size: 1.5rem;
+        text-decoration: none;
+        color: #ffffff;
+    
+    }
+    .nav {
+        padding: 7px;
+    }
+        /* ENTRADAS */
+
+        .container {
+            font-size: 1.3rem;
+            width:650px;
+            height: 400px;
+            margin-left: 0px;
+        }
+        
+        .fotos {
+            width: 110px;
+            height: 400px;
+            display: inline-block;
+        
+        }
+        .logo {
+            width: 15px;
+        }
+        .nome {
+            float: left;
+            margin-left: 15px;
+            margin-bottom: 80px;
+            margin-right: 100px;
+        }
+        .preço {
+            float: right;
+        }
+        .fotinhas {
+            display: block;
+            border-radius: 20px;
+            margin-left: 100px;
+            width: 110px;
+            
+        }
+            /* Pratos principais */
+
+.titulo { 
+    font-size: 2rem;
+    padding-top:0px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+#container2 {
+    font-size: 1.3rem;
+    width:620px;
+    height: 510px;
+    margin-left: 0px;
+    
+}
+
+#fotos2 {
+    width: 110px;
+    height: 510px;
+    display: inline-block;
+
+}
+.pratos {
+    float: left;
+    margin-left: 10px;
+    margin-bottom: 70px;
+    margin-right: 100px;
+}
+
+.principais {
+    display: block;
+    border-radius: 20px;
+    margin-left: 100px;
+    width: 110px;
+}
+
+/* Bebidas */
+
+#container3 {
+    font-size: 1.3rem;
+    width: 800px;
+    height: 200px;
+    margin-left: 5px;
+}
+.nome2 {
+    margin-left: 10px;
+    margin-bottom: 20px;
+    margin-right: 100px;
+}
+.preço2 {
+    display: block;
+    border-radius: 20px;
+    margin-left: 15px;
+    width: 70px;
+}
+
+
+    }
