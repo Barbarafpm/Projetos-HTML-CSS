@@ -9,15 +9,21 @@ Usei um pouco de javascript no cardápio para os botões de: "Entradas", "Pratos
 para ser redirecionada para a parte da página onde corresponde cada botão.
 
 index.html = principal 
+
 ![index](https://user-images.githubusercontent.com/80357746/181133252-3e6baacd-404e-483d-84d9-81b76f221159.gif)
 
 
+
 sobre.html = sobre o restaurante.
+
 ![sobre](https://user-images.githubusercontent.com/80357746/181133248-90a0ed44-9576-4265-96b9-d5c48fa99180.gif)
 
 
+
 cardapio.html = cardápio do resturante.
+
 ![cardapio_1](https://user-images.githubusercontent.com/80357746/181132643-66654f12-5787-4e2b-a76c-4e7ae8bbbb86.gif)
+
 
 
 galeria.html = fotos do resturante, das comidas e ate de clientes.
