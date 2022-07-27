@@ -1,6 +1,6 @@
 Projetos para praticar em HTML e CSS
 
-Site de um restaurante, possui 4 telas, a principal onde o usuário tem acesso ao "Sobre nós", "Cadápio" e "Galeria".
+Site de um restaurante, possui 4 telas, onde a principal  o usuário tem acesso ao "Sobre nós", "Cadápio" e "Galeria".
 são responsivas, exeto a Galeria.
 
 Testei vários conhecimentos em css, como: display grid, positions, medidas absolutas e relativas, media queries, entre outros..
