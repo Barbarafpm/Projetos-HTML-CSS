@@ -9,11 +9,11 @@ Usei um pouco de javascript no cardápio para os botões de: "Entradas", "Pratos
 para ser redirecionada para a parte da página onde corresponde cada botão.
 
 index.html = principal 
-[index.webm](https://user-images.githubusercontent.com/80357746/181129933-7b6f0d13-be53-4247-b92f-419e23a4b7c4.webm)
+![index](https://user-images.githubusercontent.com/80357746/181133252-3e6baacd-404e-483d-84d9-81b76f221159.gif)
 
 
 sobre.html = sobre o restaurante.
-[sobre.webm](https://user-images.githubusercontent.com/80357746/181130566-4a75c42d-8f13-4d32-95bc-dc46ee567407.webm)
+![sobre](https://user-images.githubusercontent.com/80357746/181133248-90a0ed44-9576-4265-96b9-d5c48fa99180.gif)
 
 
 cardapio.html = cardápio do resturante.
