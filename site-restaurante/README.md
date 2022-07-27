@@ -17,7 +17,7 @@ sobre.html = sobre o restaurante.
 
 
 cardapio.html = cardápio do resturante.
-[cardapio.webm](https://user-images.githubusercontent.com/80357746/181130644-83345206-43fe-4bdf-8ba7-c5b3540c1ec8.webm)
+![cardapio_1](https://user-images.githubusercontent.com/80357746/181132643-66654f12-5787-4e2b-a76c-4e7ae8bbbb86.gif)
 
 
 galeria.html = fotos do resturante, das comidas e ate de clientes.
