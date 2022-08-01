@@ -1,5 +1,5 @@
 # Projetos-HTML-CSS
-projetos para praticar em HTML e CSS
+## projetos para praticar em HTML e CSS
 
 Este projeto foi feita para praticar HTML e CSS e também para ser divulgado como um currículo.
 
