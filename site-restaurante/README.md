@@ -22,9 +22,10 @@ sobre.html = sobre o restaurante.
 
 cardapio.html = cardápio do resturante.
 
-![cardapio_1](https://user-images.githubusercontent.com/80357746/181132643-66654f12-5787-4e2b-a76c-4e7ae8bbbb86.gif)
+![ALLVEG](https://user-images.githubusercontent.com/80357746/182060033-ea73a367-9e4f-4742-8cca-1aa363c703a6.gif)
 
 
 
 galeria.html = fotos do resturante, das comidas e ate de clientes.
-![Galeria](https://user-images.githubusercontent.com/80357746/181130871-3138ad79-0156-4469-9c61-19ecf25a81cc.gif)
+
+![ALLVEG (1)](https://user-images.githubusercontent.com/80357746/182060216-99d57b9d-1b9d-4169-b9c4-330321717021.gif)
